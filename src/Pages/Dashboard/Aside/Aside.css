@@ -1,0 +1,26 @@
+.dashboard{
+    background-color: #f3f5f8;
+    margin-top: 5.5rem;
+    
+}
+aside img {
+    box-shadow: 0px 0px 0px 5px rgb(237 240 245);
+}
+
+.dash_item {
+    transition: .5s;
+    font-size: 17px;
+    font-weight: 550;
+}
+.dash_menu{
+    transition: .5s;
+    padding: 12px 0;
+ }
+.dash_menu:hover .dash_item{
+    color: #f7b40c !important;
+    transform: translateX(8px);
+ }
+ .dash_menu:hover {
+    background-color: #f3f5f8;
+ }
+ 

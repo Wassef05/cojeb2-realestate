@@ -1,0 +1,10 @@
+nav{
+    z-index: 99;
+}
+.navLink{
+    transition: .5s;
+}
+.navLink:hover{
+    color: #f5a306 !important;
+    transform: translateY(-2px);
+}

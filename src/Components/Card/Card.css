@@ -1,0 +1,26 @@
+.card_container .card_img{
+    overflow: hidden;
+    border-radius: 0.375rem 0.375rem 0 0;
+    height: 250px;
+
+}
+.card_container .card_img img{
+    border-radius: 0.375rem 0.375rem 0 0;
+    transition: .8s;
+    height: 100%;
+    width: 100%;
+}
+.card_container:hover .card_img img{
+    transform: scale(1.05);
+}
+.card_container .card{
+    border: 1px solid rgb(219, 219, 219) !important;
+    transition: .4s;
+}
+.card_container .card:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border: none !important;
+}
+Link{
+    text-decoration: none;
+}

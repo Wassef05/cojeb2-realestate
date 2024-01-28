@@ -1,0 +1,25 @@
+.search {
+    background-color: #f3f5f8;
+    margin-top: 5.5rem;
+}
+
+.form_search input,
+.search select {
+    height: 45px;
+    margin-bottom: 30px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    transform: translate3d(0px, 28px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+
+}
+
+.active {
+    color: #212529 !important;
+    border: none !important;
+}
+

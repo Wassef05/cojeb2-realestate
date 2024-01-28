@@ -1,0 +1,19 @@
+.card_img{
+    overflow: hidden;
+
+}
+.card_img img{
+    transition: .8s;
+}
+
+.card_img img:hover{
+    transform: scale(1.05);
+}
+.card{
+    border: 1px solid rgb(219, 219, 219) !important;
+    transition: .4s;
+}
+.card:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border: none !important;
+}

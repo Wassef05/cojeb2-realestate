@@ -1,0 +1,76 @@
+header{
+    
+    position: relative;
+}
+.hero_section{
+    height: 100vh;
+    background-image: url(/public/assets/images/hero-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn_anim{
+    transition: .5s;
+}
+.btn_anim:hover{
+    transform: translateY(-2px);
+}
+.btn-warning{
+    background-color: #f7b40c !important;
+}
+.text-warning{
+    color: #f7b40c !important;
+}
+
+
+.fontSize60{
+    font-size: 60px;
+}
+.fontSize35{
+    font-size: 35px;
+}
+.fontSize45{
+    font-size: 45px;
+}
+.fontSize17{
+    font-size: 17px;
+}
+.fontSize18{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: #1b1e1f;
+}
+@media (max-width: 700px) { 
+    .fontSize60{
+        font-size: 40px;
+    }
+
+
+    .navbar-collapse{
+        background-color: white !important;
+        padding: 15px 0px 15px 25px;
+        box-shadow: 0 0 5rem rgba(99, 99, 99, 0.416);
+        border-radius: 10px;
+        margin-top: 15px
+    }
+ }
+
+
+ .card_contact{
+   transition: .6s;
+ }
+ .card_contact:hover{
+    transform: translateY(-5px);
+ }
+
+
+ .height_100{
+    height: 100%;
+ }
+ .page404{
+    height: 100vh;
+}
+
+

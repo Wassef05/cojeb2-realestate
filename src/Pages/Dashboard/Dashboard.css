@@ -1,0 +1,11 @@
+
+.mytable, table{
+    overflow-y : hidden;
+
+}
+.dash_card{
+    transition: .5s;
+}
+.dash_card:hover{
+    transform: scale(1.03);
+}
